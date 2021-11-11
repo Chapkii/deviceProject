@@ -1,0 +1,212 @@
+@import "./default.css";
+@import "./reset.css"; 
+@import "./fonts.css";
+
+body{
+    margin: 0;
+}
+
+.container{ 
+    max-width: 1160px;
+    margin: 0 auto;  
+}
+
+.navigation {
+    background-color: #FFE17F;
+    margin-top: 40px;
+}
+
+.logo { 
+    margin-left: 61px;
+    margin-top: -23px;
+}
+
+.menu-top { 
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 44px;
+    padding-left: 60px;
+}
+input { 
+    width: 480px;
+    height: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.navigation-image { 
+    width: auto;
+    height: auto;
+    padding: 0 10px; 
+}
+.navigation-enter {
+    width: 220px;
+    height: auto; 
+}
+
+.navigation-compare {
+    width: 100px;
+    height: auto; 
+}
+
+.navigation-basket {
+    width: 100px;
+    height: auto; 
+}
+
+.menu-bottom { 
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 17px;
+    padding-left: 60px;
+}
+
+.menu-catalog { 
+    width: 236;
+}
+
+.menu-delivery { 
+    width: 140;
+    padding-left: 304px;
+    
+}
+.menu-gueranty { 
+    width: 140;
+    padding-left: 19px;
+    
+}
+.menu-contacts { 
+    width: 140;
+    padding-left: 62px;
+}
+
+.popualr-category{ 
+    display: flex;
+    align-content: center;
+}
+
+.text-container { 
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.text-container--button{
+    display: flex;
+    flex-direction: row;
+}
+.text-conteiner--stats{
+    display: flex;
+    flex-direction: row;
+}
+.text-container--stats1{
+    display: flex;
+    flex-direction: column; 
+    width: 160px;
+}
+.text-container--stats2{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.text-header{
+    width: 250px;
+    height: 135px;
+    margin-left: 301px;
+    margin-top: 46px;
+}
+.text-title{
+    width: 560px;
+    height: 110px;
+}
+.stats2-about{
+    width: 160px;/* в макете разная высота */
+    height:30px;
+}
+.stats1-about{
+    width: 160px;
+    height: 52px;
+}
+.popular{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.popular-items{
+    display: flex;
+    flex-direction: column;
+    
+}
+.popular-items-img{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+}
+.popular-img{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-delivery{
+    display: flex;
+    flex-direction: row;
+
+}
+.visually-hidden { 
+    display: none;    
+}
+
+
+
+a {
+ color: black;
+}
+
+
+
+.menu-top{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.menu-bottom{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.text-header{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 30px; 
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.text-title{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+}
