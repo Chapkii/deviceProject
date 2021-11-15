@@ -61,25 +61,25 @@ input {
     display: flex;
     align-items: baseline;
     padding-bottom: 17px;
-    padding-left: 60px;
+    padding-left: 60px; 
 }
+.menu-catalog-button {
+    display: flex;
+    align-items: baseline;
 
+}
 .menu-catalog { 
-    width: 236;
+    margin-right: auto;
 }
 
 .menu-delivery { 
-    width: 140;
-    padding-left: 304px;
-    
+    padding-left: 247px;  
 }
 .menu-gueranty { 
-    width: 140;
     padding-left: 19px;
     
 }
 .menu-contacts { 
-    width: 140;
     padding-left: 62px;
 }
 
@@ -89,10 +89,28 @@ input {
 }
 
 .text-container { 
+    padding-top: 46px;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    justify-content: space-around;
 }
+
+.gallery {
+    z-index: 1;
+}
+
+/* как сделать по размеру контейнера */
+.popualr-category::before{
+    position: absolute;
+    content: '';
+    width: 1160px;
+    height: 150px;
+    background-color: #FFE17F;
+    z-index: -1;
+
+}
+
+
 .text-container--button{
     display: flex;
     flex-direction: row;
@@ -112,53 +130,98 @@ input {
     width: 160px;
 }
 .text-header{
-    width: 250px;
-    height: 135px;
-    margin-left: 301px;
-    margin-top: 46px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 30px;
+    padding-right: 49px;
+    justify-content: right;
+    color: white;
 }
 .text-title{
+    /*
     width: 560px;
     height: 110px;
+    */
+}
+.text-description { 
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #444444;     
 }
 .stats2-about{
-    width: 160px;/* в макете разная высота */
-    height:30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
 }
 .stats1-about{
-    width: 160px;
-    height: 52px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 30px;
+color: #000000;
+   
 }
 .popular{ 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .popular-items{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
 }
 .popular-items-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
 }
-.popular-img{
-    display: block;
-    margin: auto;
-    position: relative;
-    top: 25%;
+
+.popular-text{
+    padding-top: 33;
+    width: 160px;
+    height: 160px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+/* or 133% */
+
+    letter-spacing: -0.02em;
+
+/* basic/black */
+
+    color: #000000;
+        
 }
 .about{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+.about-button {
+    width: 280px;
+    height: 40px;
 }
 .about-menu{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: flex-start;
 }
 .about-delivery{
     display: flex;
@@ -167,6 +230,34 @@ input {
 }
 .visually-hidden { 
     display: none;    
+}
+
+h3 {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 50px;
+/* or 100% */
+
+
+/* basic/black */
+
+color: #000000;
+}
+
+p {
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+/* basic/dark */
+
+color: #444444;
 }
 
 
