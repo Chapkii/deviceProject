@@ -1,6 +1,7 @@
 @import "./default.css";
 @import "./reset.css"; 
 @import "./fonts.css";
+@import "./buttons.css";
 
 body{
     margin: 0;
@@ -209,4 +210,24 @@ a {
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
+}
+
+.about-contacts{
+    display: flex;
+    flex-direction: row;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-bot{
+    display: flex;
+    flex-direction: row;
 }
